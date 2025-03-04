@@ -54,12 +54,16 @@ a:hover{
     color: #00754a;
 }
 
+section{
+    align-content: center
+}
+
 .banner{
     display: flex;
     background-color: #1e3932;
     color: white;
     text-align: center;
-    margin-bottom: 30px;
+    margin: 3%;
 }
 
 .banner h1{
@@ -78,14 +82,26 @@ a:hover{
 }
 
 .barEnd{
-
     display: inline-flex;
-    align-content: flex-end;
+    margin-left: 65%;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+button{
+    font-size: 20px;
+    border-radius: 30px;
 }
 
 #cafes{
     background-color: #cddc39;
 }
+
+#tostado{
+    color: #204285;
+    background-color: #f5e1a4 ;
+}
+
 
 /*#box{
     top: 50px;
