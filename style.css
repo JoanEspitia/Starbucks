@@ -4,6 +4,14 @@
     
 }
 
+
+.montserrat-uniquifier {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+
 #Icon{
     display: inline-block;
     background-image:url(assets/icon.jpg);
@@ -15,6 +23,15 @@
 
 header{
     height: 90px;
+}
+
+#Navbar{
+    display: inline-flex;
+    align-items: center;
+}
+
+.barEnd{
+    justify-content: space-evenly;   
 }
 
 nav{
@@ -64,6 +81,7 @@ section{
     color: white;
     text-align: center;
     margin: 3%;
+    font-family: "Montserrat", sans-serif;
 }
 
 .banner h1{
@@ -81,23 +99,16 @@ section{
     padding: 0 80px;
 }
 
-.barEnd{
-    display: inline-flex;
-    margin-left: 65%;
-    align-items: center;
-    flex-direction: row-reverse;
-}
-
 button{
     font-size: 20px;
     border-radius: 30px;
 }
 
-#cafes{
+#berry{
     background-color: #cddc39;
 }
 
-#tostado{
+#lavanda{
     color: #204285;
     background-color: #f5e1a4 ;
 }
