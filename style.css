@@ -105,14 +105,22 @@ button{
 }
 
 #berry{
-    background-color: #cddc39;
+    color: #204285;
+    background-color: #bdceff;
 }
 
 #lavanda{
-    color: #204285;
-    background-color: #f5e1a4 ;
+    color: white;
+    background-color: #c3a6c6 ;
 }
 
+#Merch{
+    color: #204285;
+    background-color: #bfdeda;
+}
+#Merch button{
+    background-color: #bfdeda
+}
 
 /*#box{
     top: 50px;
