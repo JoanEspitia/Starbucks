@@ -1,5 +1,5 @@
 *{
-    box-sizing: border-box;
+    box-sizing: content-box;
     margin: 0;
     
 }
@@ -28,14 +28,25 @@ header{
 #Navbar{
     display: inline-flex;
     align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    margin-left: 10%;
+    width: 100%;
+    
 }
 
 .barEnd{
-    justify-content: space-evenly;   
+    display: flex;
+    position: relative;
+    margin-left: 40%;
+    align-items: center;
+
 }
 
 nav{
-    padding: 20px 0;
+    display: flex;
+    align-content: baseline;
+    padding: 40px 0;
     background-color: #fefefeff;
 }
 
@@ -66,7 +77,7 @@ section img{
     padding-bottom: 30px;
 }
 
-a:hover{
+#Navbar a:hover{
     border-bottom: 6px solid #00754a;
     color: #00754a;
 }
@@ -80,7 +91,7 @@ section{
     background-color: #1e3932;
     color: white;
     text-align: center;
-    margin: 3%;
+    margin: 3% 10%;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -102,6 +113,7 @@ section{
 button{
     font-size: 20px;
     border-radius: 30px;
+    margin: 0 10px ;
 }
 
 #berry{
@@ -120,6 +132,102 @@ button{
 }
 #Merch button{
     background-color: #bfdeda
+}
+
+footer.superior{
+    justify-content: center;
+    color:#000;
+    padding: 10px 10%;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    border-top: 1px solid #ddd;
+    
+}
+
+.footer-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    grid-gap: 50px;
+    max-width: 1200px;
+    margin: 20px 5px;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0 60% 0 0;
+    position: static;
+}
+
+.footer-section h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 15px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #666;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: solid;
+    color: #000;
+}
+
+footer.inferior{
+    color: #9c9b99;
+    padding: 10px 10%;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    border-top: 1px solid #ddd;
+    justify-content: center;
+    
+}
+
+.footer-bottom {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-size: 16px;
+    padding: 10px  30px;
+}
+
+.footer-bottom ul li a{
+    color: #666;
+}
+
+.footer-bottom ul li a:hover{
+    text-decoration: solid;
+    color: #000;
+} 
+
+.footer-bottom ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    list-style-type: none;
+    
+}
+
+nav.final{
+    justify-content: center;
 }
 
 /*#box{
