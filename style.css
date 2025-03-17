@@ -134,11 +134,54 @@ button{
     background-color: #bfdeda
 }
 
-footer.superior{
+#NS div {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.media section{
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+#NS img{
+    width: 100%;
+}
+
+#noticias{
+    background-color: #bdceff;
+    color: #2a5ea8;
+}
+
+#Terminos{
+    background-color: #f5bc93;
+    color: #1d1d1b;
+}
+
+#btninf {
+    position: relative;
     justify-content: center;
+    flex-wrap: wrap;
+    padding: 7px 16px;
+    border-radius: 50px;
+    
+}
+
+
+
+footer.superior{
+    display: flex;
+    justify-content: flex-start;
     color:#000;
-    padding: 10px 10%;
-    font-family: Arial, sans-serif;
+    padding: 20px 10%;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     border-top: 1px solid #ddd;
     
@@ -147,18 +190,15 @@ footer.superior{
 .footer-container {
     display: flex;
     justify-content: flex-start;
-    flex-direction: column;
-    grid-gap: 50px;
-    max-width: 1200px;
+    align-items: flex-start;
+    gap: 40px;
     margin: 20px 5px;
 }
 
 .footer-section {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding: 0 60% 0 0;
-    position: static;
+    justify-content: space-between;
+    gap: 20px;
 }
 
 .footer-section h3 {
@@ -171,6 +211,9 @@ footer.superior{
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 .footer-section ul li {
