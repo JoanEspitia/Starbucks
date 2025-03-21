@@ -28,26 +28,42 @@ header{
 #Navbar{
     display: inline-flex;
     align-items: center;
-    justify-content: flex-start;
-    position: relative;
-    margin-left: 10%;
-    width: 100%;
-    
+    justify-content: space-evenly;
+    margin: 0px 10px;
+    font-family: "Montserrat", sans-serif;
 }
 
 .barEnd{
     display: flex;
-    position: relative;
-    margin-left: 40%;
+    align-content: flex-end;
     align-items: center;
-
+    padding: 7px 16px;
 }
 
-nav{
+.bar a{
+    padding: 7px 16px;
+}
+
+.bar{
+    background-color: white;
+    color: black;
+
+    
+}
+
+.bar1{
+    background-color: black;
+    color: white;
+    
+}
+
+#Navbar nav{
     display: flex;
     align-content: baseline;
     padding: 40px 0;
     background-color: #fefefeff;
+    width: 98%;
+
 }
 
 a{
@@ -111,9 +127,11 @@ section{
 }
 
 button{
-    font-size: 20px;
-    border-radius: 30px;
+    font-size: 25px;
+    border-radius: 50px;
     margin: 0 10px ;
+    height: 40px;
+    width: 30%;
 }
 
 #berry{
@@ -244,6 +262,10 @@ footer.inferior{
     padding: 10px  30px;
 }
 
+.enlaces{
+    justify-content: center;    
+}
+
 .footer-bottom ul li a{
     color: #666;
 }
@@ -371,6 +393,173 @@ nav.final{
         }
     }
     
+
+
+
+
+
+
+
+
+#Navbar1{display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0px 10px;
+    font-family: "Montserrat", sans-serif;
+    position: fixed;
+    top: 0;
+    float: inline-start;
+    width: 100%;
+    height: 4%;
+    box-shadow: 0 4px 4px -4px #ccc;
+    z-index: 1000;
+    }
+
+.second {    
+    display: flex;
+    align-content: baseline;
+    padding: 40px 0;
+    background-color: #fefefeff;
+    width: 98%;
+    
+}
+
+
+
+#starbucks-rewards div{
+display: flex;
+justify-content: center;
+
+}
+
+#starbucks-rewards{
+    display: block;
+    position: fixed;
+    margin-top: 20px;
+    background: linear-gradient(0deg, rgb(29, 57, 50) 0%, rgb(10, 105, 75) 100%);
+    color: #ffffff;
+    box-shadow: rgb(204, 204, 204) 7px 0px 4px -4px;
+    width: 40%;
+    height: 50em;
+    align-content: center;
+    padding: 10px;
+}
+.box{
+    display: block;
+    flex-direction: column;
+    padding: 0 50px;
+}
+#starbucks-rewards h2{
+    font-size: 26pt;
+    font-weight: 400;
+    padding: 16px 0 8px;
+    font-family: "Montserrat", sans-serif;
+}
+
+#starbucks-rewards img{
+    display: flex;
+    vertical-align: middle;
+    margin: 0 50px;
+    
+}
+
+.log{
+    display: inline-block;
+    font-size: 10pt;
+    font-weight: 700;
+    border-radius: 35px;
+    padding: 6px 12px ;
+    width: auto;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#sn{
+    background-color: transparent;
+    color: white;
+}
+
+#phone{
+    background-repeat: no-repeat;
+background-position: 100% 100%;
+background-size: contain;
+content: "";
+display: block;
+position: absolute;
+bottom: 0;
+right: 0;
+width: 40%;
+height: 30%;
+z-index: 0;
+
+}
+
+
+
+.rewards{
+    width: 55%;
+    padding: 40px;
+    height: 30%;
+    align-content: flex-end;
+    
+}
+
+#section1 {
+    display: flex;
+    position: relative;
+    float: right;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+
+.seccion1{
+    display: flex;
+    flex-direction: column;
+    align-content:  center;
+    justify-content: center;
+    padding: 0 8px;
+    width: 22%;
+    height: 20%;
+}
+
+.desing{
+    display: flex;
+    margin: 0 88px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    width: 80%;
+}
+
+#section1 h2{
+    margin: 0 0 21px 0;
+    font-weight: 400;
+    width: 100%;
+    font-size:1.7rem ;
+
+}
+
+#section1 img{
+    vertical-align: middle;
+    border-style: none;
+    display: inline-block;
+    width: 128px;
+    height: 100px;
+}
+
+span{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+
+
 
 
 
